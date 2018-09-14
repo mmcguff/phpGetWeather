@@ -6,7 +6,7 @@ $private_key = "9bb981cba1243576de45e917d892c7106abf2250";
 
 // Define the request parameter's
 $method = "GET";
-$request = "/data/optimized/00204CCD/daily/last/1d";
+$request = "/data/optimized/00204CCD/daily/last/30d";
 
 $timestamp = gmdate('D, d M Y H:i:s T'); // Date as per RFC2616 - Wed, 25 Nov 2014 12:45:26 GMT
 
