@@ -16,8 +16,6 @@ $content_to_sign = $method.$request.$timestamp.$public_key;
 // Hash content to sign into HMAC signature
 $signature = hash_hmac("sha256", $content_to_sign, $private_key);
 
-echo 'This is the signature: '.$signature;
-
 // Add required headers
 // Authorization: hmac public_key:signature
 // Date: Wed, 25 Nov 2014 12:45:26 GMT
